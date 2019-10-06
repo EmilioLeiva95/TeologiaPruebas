@@ -30,16 +30,9 @@ void inicializar_espec()
 {
   int i;
   for (i=0;i<=254;++i) 
-    espec[i]=nulo;
-
-  espec[43]=mas;
-  espec[45]=menos;
-  espec[42]=por;
-  espec[47]=barra;
   espec[40]=parena;
   espec[41]=parenc;
-  espec[61]=igl;
+  espec[61]=igual;
   espec[46]=punto;
-  espec[44]=coma;
   espec[59]=puntoycoma;
 }
